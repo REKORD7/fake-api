@@ -1,5 +1,3 @@
-[spanish](https://github.com/SofiDevO/alurageek-API/tree/spanish)
-
 ## Deploy JSON Server to Vercel
 
 A template for deploying [JSON Server](https://github.com/typicode/json-server) on [Vercel](https://vercel.com), allowing you to run a fake REST API online 🐣!
@@ -21,21 +19,17 @@ https://alurageek-api.vercel.app/
 {
  "product": [
         {
-            "img": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
-            "name": "Trooper mug",
-            "price": "$60.00",
-            "description": "Trooper helmet mug",
-            "category": "starwars",
-            "id": 1
-        },
-        {
-            "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
-            "name": "Vader Funko",
-            "price": "$60.00",
-            "description": "Collectible Funko of Darth Vader",
-            "category": "starwars",
-            "id": 2
-        }
+      "id": "4032",
+      "name": "Hulk",
+      "price": "20",
+      "image": "https://m.media-amazon.com/images/I/51RPesrH2EL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "8f8c",
+      "name": "Spiderman",
+      "price": "35",
+      "image": "https://m.media-amazon.com/images/I/71lRur+MziL._AC_SL1500_.jpg"
+    }
  ]
 }
 ```
